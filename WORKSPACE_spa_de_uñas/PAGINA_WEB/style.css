@@ -1,0 +1,172 @@
+html {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    color: aliceblue;
+    
+}
+
+header {
+    color: black;
+    padding: 15px 20px;
+    background-color: pink;
+
+}
+
+header h1 {
+    margin: 15px;
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.parrafo {
+    margin: 20px 20px;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+
+}
+
+.servicios {
+    color: antiquewhite;
+    padding: 0.5rem 0.5rem;
+
+}
+
+.servicios h2 {
+    margin: 50px 0 0 0;
+    padding: 50px 0 0 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.servicios p {
+    margin: 0 20px;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+
+}
+
+.link {
+    text-decoration: none;
+    color: violet;
+}
+
+.link:visited {
+    color: violet;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: pink;
+    text-decoration: none;
+}
+
+.Diseños {
+    color: antiquewhite;
+    padding: 0.5rem 0.5rem;
+    
+}
+
+.Diseños h2 {
+    margin: 60px 0 10px 0;
+    padding: 60px 0 10px 0;
+    letter-spacing: 1px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.Diseños p {
+     margin: 0 20px 10px;
+    padding: 0 20px 10px;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 40px 60px;
+    margin: 0 20px 60px;
+
+}
+
+.imagen img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s;
+    
+}
+
+.imagen img:hover {
+    transform: scale(1.15);
+}
+
+footer {
+    color: black;
+    padding: 50px 20px 115px;
+    background-color: pink;
+
+}
+
+footer h3 {
+    margin: 5px 0 15px;
+    padding: 5px 0 ;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+footer p {
+    margin: 15px 20px 20px;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+
+}
+
+.cita {
+    text-decoration: none;
+    font-size: 25px;
+    float: left;
+    color: black;
+}
+
+.cita:visited {
+    color: black;
+}
+.cita:hover {
+    color: blueviolet;
+}
+
+.volver {
+    margin: 20px 0 0 0;
+    padding: 20px 0 0 0;
+    text-decoration: none;
+    font-size: 25px;
+    float: right;
+    color: black;
+}
+
+.volver:visited {
+    color: black;
+}
+
+.volver:hover {
+    color: blueviolet;
+}
